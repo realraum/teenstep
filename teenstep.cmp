@@ -1,11 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fr 02 Aug 2013 03:43:53 CEST
-
-BeginCmp
-TimeStamp = /51FAEF64;
-Reference = C1;
-ValeurCmp = 10µF;
-IdModule  = SM1206;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sa 03 Aug 2013 01:51:46 CEST
 
 BeginCmp
 TimeStamp = /51FADADD;
@@ -50,13 +43,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FAEF88;
-Reference = C8;
-ValeurCmp = 10µF;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
 TimeStamp = /51FAD925;
 Reference = C9;
 ValeurCmp = 10pF;
@@ -71,20 +57,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FAEF24;
-Reference = D1;
-ValeurCmp = DIODESCH;
-IdModule  = SM1206POL;
-EndCmp
-
-BeginCmp
-TimeStamp = /51FAEF27;
-Reference = D2;
-ValeurCmp = DIODESCH;
-IdModule  = SM1206POL;
-EndCmp
-
-BeginCmp
 TimeStamp = /51FAD951;
 Reference = D3;
 ValeurCmp = LED;
@@ -96,27 +68,6 @@ TimeStamp = /51FAD907;
 Reference = J1;
 ValeurCmp = USB;
 IdModule  = USB_MICRO_AB;
-EndCmp
-
-BeginCmp
-TimeStamp = /51FAEF43;
-Reference = P1;
-ValeurCmp = CONN_1;
-IdModule  = CONN_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /51FAD9B3;
-Reference = P2;
-ValeurCmp = CONN_1;
-IdModule  = CONN_1;
-EndCmp
-
-BeginCmp
-TimeStamp = /51FAD9BD;
-Reference = P3;
-ValeurCmp = CONN_1;
-IdModule  = CONN_1;
 EndCmp
 
 BeginCmp
@@ -183,17 +134,24 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /51FC45A1;
+Reference = R5;
+ValeurCmp = 1K8;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FC45B2;
+Reference = R6;
+ValeurCmp = 1K8;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /51FAD95E;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
 IdModule  = SW_PUSH_SMALL;
-EndCmp
-
-BeginCmp
-TimeStamp = /51FAEF15;
-Reference = U1;
-ValeurCmp = LT1965;
-IdModule  = DD-PAK-5;
 EndCmp
 
 BeginCmp
