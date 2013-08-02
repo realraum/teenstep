@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Fr 02 Aug 2013 02:33:11 CEST
+# EESchema Netlist Version 1.1 created  Fr 02 Aug 2013 03:43:53 CEST
 (
  ( /51FAEF64 SM1206 C1 10µF
   ( 1 N-000041 )
@@ -107,7 +107,7 @@
   ( 9 GND )
   ( 10 GND )
  )
- ( /51FAE40F SIL-5 P9 RS232
+ ( /51FAE40F SIL-4 P9 RS232
   ( 1 VCC )
   ( 2 /TxD )
   ( 3 /RxD )

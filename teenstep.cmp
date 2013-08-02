@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fr 02 Aug 2013 02:33:11 CEST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fr 02 Aug 2013 03:43:53 CEST
 
 BeginCmp
 TimeStamp = /51FAEF64;
@@ -151,7 +151,7 @@ BeginCmp
 TimeStamp = /51FAE40F;
 Reference = P9;
 ValeurCmp = RS232;
-IdModule  = SIL-5;
+IdModule  = SIL-4;
 EndCmp
 
 BeginCmp
