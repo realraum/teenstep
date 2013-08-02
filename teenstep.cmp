@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fr 02 Aug 2013 02:06:55 CEST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fr 02 Aug 2013 02:33:11 CEST
 
 BeginCmp
 TimeStamp = /51FAEF64;
@@ -120,13 +120,6 @@ IdModule  = CONN_1;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FAD9AD;
-Reference = P4;
-ValeurCmp = STEPPER;
-IdModule  = SIL-6;
-EndCmp
-
-BeginCmp
 TimeStamp = /51FAE6AB;
 Reference = P5;
 ValeurCmp = PD4-7;
@@ -208,6 +201,13 @@ TimeStamp = /51FAD857;
 Reference = U2;
 ValeurCmp = ATMEGA32U4;
 IdModule  = TQFP44;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FAFAB1;
+Reference = U3;
+ValeurCmp = TEENSTEP;
+IdModule  = TEENSTEP;
 EndCmp
 
 BeginCmp
