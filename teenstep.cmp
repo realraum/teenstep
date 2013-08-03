@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sa 03 Aug 2013 19:07:57 CEST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sa 03 Aug 2013 23:01:46 CEST
 
 BeginCmp
 TimeStamp = /51FD303B;
@@ -82,6 +82,41 @@ TimeStamp = /51FAD907;
 Reference = J1;
 ValeurCmp = USB;
 IdModule  = USB_MICRO_AB;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FD5896;
+Reference = K1;
+ValeurCmp = M0;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FD589B;
+Reference = K2;
+ValeurCmp = M1;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FD589F;
+Reference = K3;
+ValeurCmp = M2;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FD58A8;
+Reference = P1;
+ValeurCmp = MOT_A;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FD58AA;
+Reference = P2;
+ValeurCmp = MOT_B;
+IdModule  = bornier2;
 EndCmp
 
 BeginCmp
@@ -187,6 +222,13 @@ TimeStamp = /51FAFAB1;
 Reference = U3;
 ValeurCmp = TEENSTEP;
 IdModule  = TEENSTEP;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FD5878;
+Reference = U4;
+ValeurCmp = POLOLU_DRV8825;
+IdModule  = Pololu_DRV8825;
 EndCmp
 
 BeginCmp
