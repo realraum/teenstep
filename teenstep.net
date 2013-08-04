@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sa 03 Aug 2013 23:01:46 CEST
+# EESchema Netlist Version 1.1 created  So 04 Aug 2013 16:04:58 CEST
 (
  ( /51FD303B SM0805 C1 1µF
   ( 1 /USB_PWR )
@@ -208,14 +208,14 @@
   ( 6 /PF0 )
   ( 7 VCC )
   ( 8 GND )
-  ( 9 /VMS )
+  ( 9 /Vmot )
   ( 10 ? )
   ( 11 ? )
   ( 12 ? )
   ( 13 ? )
  )
  ( /51FD5878 Pololu_DRV8825 U4 POLOLU_DRV8825
-  ( 1 /VMS )
+  ( 1 /Vmot )
   ( 2 GND )
   ( 3 N-000050 )
   ( 4 N-000045 )

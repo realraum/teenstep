@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sa 03 Aug 2013 22:12:11 CEST
+EESchema Schematic File Version 2  date So 04 Aug 2013 16:04:48 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "3 aug 2013"
+Date "4 aug 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 9000 5700 0    60   ~ 0
+Vmot
 Wire Wire Line
 	7600 2500 7700 2500
 Wire Wire Line
@@ -498,7 +500,7 @@ F 1 "GND" H 5800 2580 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6600 1650 0    60   ~ 0
-VMS
+Vmot
 $Comp
 L CONN_2 P2
 U 1 1 51FD58AA
@@ -701,8 +703,6 @@ F 1 "1K8" V 8850 4050 50  0000 C CNN
 	1    8850 4050
 	-1   0    0    1   
 $EndComp
-Text Label 9000 5700 0    60   ~ 0
-VMS
 $Comp
 L GND #PWR012
 U 1 1 51FC3850
