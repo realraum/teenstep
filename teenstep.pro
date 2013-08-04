@@ -1,13 +1,11 @@
-update=Fr 02 Aug 2013 01:37:07 CEST
+update=So 04 Aug 2013 05:30:41 CEST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../kicad-libs
@@ -102,3 +100,5 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=realraum
+[general]
+version=1
