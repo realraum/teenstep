@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date So 04 Aug 2013 16:04:48 CEST
+EESchema Schematic File Version 2  date So 04 Aug 2013 16:15:40 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,8 +45,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 9000 5700 0    60   ~ 0
-Vmot
+Wire Wire Line
+	2400 2300 2400 2050
+Wire Wire Line
+	2400 2050 2900 2050
+Wire Wire Line
+	2900 2050 2900 1950
 Wire Wire Line
 	7600 2500 7700 2500
 Wire Wire Line
@@ -87,11 +91,7 @@ Wire Wire Line
 	2400 2700 2400 2750
 Wire Wire Line
 	3650 2750 3650 2700
-Wire Wire Line
-	3650 2250 3650 2300
 Connection ~ 1600 3100
-Wire Wire Line
-	2400 2250 2400 2300
 Wire Wire Line
 	1600 4050 1600 2250
 Wire Wire Line
@@ -420,6 +420,23 @@ Wire Wire Line
 	7650 2300 7650 2250
 Wire Wire Line
 	7600 2050 7700 2050
+Wire Wire Line
+	3650 2300 3650 2050
+Wire Wire Line
+	3650 2050 3100 2050
+Wire Wire Line
+	3100 2050 3100 1950
+$Comp
+L CONN_2 P3
+U 1 1 51FE61C4
+P 3000 1600
+F 0 "P3" V 2950 1600 40  0000 C CNN
+F 1 "USBVcc" V 3050 1600 40  0000 C CNN
+	1    3000 1600
+	0    -1   -1   0   
+$EndComp
+Text Label 9000 5700 0    60   ~ 0
+Vmot
 Text Label 7600 2500 2    60   ~ 0
 PD7
 Text Label 7600 2050 2    60   ~ 0

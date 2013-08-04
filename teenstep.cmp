@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = So 04 Aug 2013 16:04:58 CEST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = So 04 Aug 2013 16:24:01 CEST
 
 BeginCmp
 TimeStamp = /51FD303B;
@@ -117,6 +117,13 @@ TimeStamp = /51FD58AA;
 Reference = P2;
 ValeurCmp = MOT_B;
 IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51FE61C4;
+Reference = P3;
+ValeurCmp = USBVcc;
+IdModule  = SMD_Solderbridge;
 EndCmp
 
 BeginCmp
